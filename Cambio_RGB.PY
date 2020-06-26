@@ -34,13 +34,13 @@ cv2.imwrite("5.RB.jpg",RB)                #Creamos la imagen solo con intensidad
 
 cv2.imwrite("6.GB.jpg",GB)                #Creamos la imagen solo con intensidades GB
 
-cv2.imshow("B",C1)
-cv2.imshow("G",C2)
-cv2.imshow("R",C3)
-cv2.imshow("RG",RG)
-cv2.imshow("RB",RB)
-cv2.imshow("GB",GB)
-
+#cv2.imshow("B",C1)
+#cv2.imshow("G",C2)
+#cv2.imshow("R",C3)
+#cv2.imshow("RG",RG)
+#cv2.imshow("RB",RB)
+#cv2.imshow("GB",GB)
+print(Aqui hay imagenes)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
