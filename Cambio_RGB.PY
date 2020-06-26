@@ -40,7 +40,7 @@ cv2.imwrite("6.GB.jpg",GB)                #Creamos la imagen solo con intensidad
 #cv2.imshow("RG",RG)
 #cv2.imshow("RB",RB)
 #cv2.imshow("GB",GB)
-print(Aqui hay imagenes)
+print("Aqui hay imagenes")
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
